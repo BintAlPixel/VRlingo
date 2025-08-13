@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b6596b8c2af67a64898325dcb2f0c9b4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Other/HV_Main_Camera_Profile.asset
+  uploadId: 728431

@@ -1,0 +1,19 @@
+fileFormatVersion: 2
+guid: 95d22c5df6e977448a95d60ea5f1a77d
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures:
+  - _Base_Color_Grtunge: {fileID: 2800000, guid: 562528ce351c6154999bc8824d6bb9c1,
+      type: 3}
+  - _Grunge: {fileID: 2800000, guid: 165201e5197481942aa3577886058cca, type: 3}
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Other/HV_Grunge.shader
+  uploadId: 728431

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4ebb426e9ca9f3c45a593d91aa06b5e8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Prefabs/Environment/HV_Trunk_Platform.prefab
+  uploadId: 728431

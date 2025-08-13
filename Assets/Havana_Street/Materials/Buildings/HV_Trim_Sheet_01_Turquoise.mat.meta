@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 462df25aa3cf8e34e811db880ce9e940
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Materials/Buildings/HV_Trim_Sheet_01_Turquoise.mat
+  uploadId: 728431

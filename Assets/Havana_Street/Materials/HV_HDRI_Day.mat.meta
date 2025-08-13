@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 1a0ff58eedb808441aa0492443328e62
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Materials/HV_HDRI_Day.mat
+  uploadId: 728431

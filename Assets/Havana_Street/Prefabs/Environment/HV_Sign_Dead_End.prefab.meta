@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 7cbaa037307efd249b9c62d27af34f89
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Prefabs/Environment/HV_Sign_Dead_End.prefab
+  uploadId: 728431

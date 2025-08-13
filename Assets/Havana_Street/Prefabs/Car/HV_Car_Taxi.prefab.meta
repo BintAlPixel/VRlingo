@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 56a73835e069d694fb17ffaf0003d5c8
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Prefabs/Car/HV_Car_Taxi.prefab
+  uploadId: 728431

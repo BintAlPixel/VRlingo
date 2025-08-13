@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d42d1b47c34a6fa448db016ed79015b4
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Materials/Street/HV_Sidewalk.mat
+  uploadId: 728431

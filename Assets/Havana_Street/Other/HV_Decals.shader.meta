@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 7eebfaa6383f6084fa843fd32adbf572
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Other/HV_Decals.shader
+  uploadId: 728431

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d3e2805cc4d276043aeb3f050b6bb419
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Prefabs/Street/HV_Road_Hatch_Stormwater_01.prefab
+  uploadId: 728431

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6f4dfe16765c0c04f9eda9ee1da4353f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Materials/Buildings/HV_Concrete_Green.mat
+  uploadId: 728431

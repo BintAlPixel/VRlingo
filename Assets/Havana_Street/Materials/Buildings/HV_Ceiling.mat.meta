@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fc502290ef2c6fe439f678a6461375f0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Materials/Buildings/HV_Ceiling.mat
+  uploadId: 728431

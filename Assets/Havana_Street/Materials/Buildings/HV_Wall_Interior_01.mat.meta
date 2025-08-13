@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 127a434a079ee89498e650fad9cd0605
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Materials/Buildings/HV_Wall_Interior_01.mat
+  uploadId: 728431

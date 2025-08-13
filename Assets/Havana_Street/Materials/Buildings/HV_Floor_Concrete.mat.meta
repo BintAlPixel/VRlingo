@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 141990dbd6707bc4bba68152e0cc73d6
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Materials/Buildings/HV_Floor_Concrete.mat
+  uploadId: 728431

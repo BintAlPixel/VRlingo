@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5b1b1351bcb568c438ba8687836b9f73
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Materials/Buildings/HV_Concrete_Yellow.mat
+  uploadId: 728431

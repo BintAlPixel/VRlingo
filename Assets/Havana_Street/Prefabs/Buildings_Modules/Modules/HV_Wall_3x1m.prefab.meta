@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 042aa945cf7ba844aa702156d7bfeac5
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Prefabs/Buildings_Modules/Modules/HV_Wall_3x1m.prefab
+  uploadId: 728431

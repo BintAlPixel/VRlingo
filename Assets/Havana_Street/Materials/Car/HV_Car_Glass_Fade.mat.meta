@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: b37a8d8a36ccfea43944cd0e09d739b0
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Materials/Car/HV_Car_Glass_Fade.mat
+  uploadId: 728431

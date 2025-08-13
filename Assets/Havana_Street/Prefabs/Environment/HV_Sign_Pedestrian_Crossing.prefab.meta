@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 973afab1652610d4ca56779f5c0d4dad
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Prefabs/Environment/HV_Sign_Pedestrian_Crossing.prefab
+  uploadId: 728431

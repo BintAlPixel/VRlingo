@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: ba60397e0ce840c49a69cca6916a60ff
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Materials/Car/HV_Car_Havana_01_Glass.mat
+  uploadId: 728431
