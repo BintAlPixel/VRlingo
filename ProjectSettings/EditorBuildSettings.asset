@@ -6,10 +6,11 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/Voice_Recognition.unity
     guid: 99c9720ab356a0642a771bea13969a05
   m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: ccc744c02b0e5e548886312c1593a590, type: 2}
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: eb3a7a844314e9c4e90bf190c1c1319c, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: fc8908b441dcdb44391f9d2518dac61a, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 356ea0aec1d80254f8643880c8e21fb4, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6349b5586e705fe46b5a3e8bfba8758c, type: 2}
   m_UseUCBPForAssetBundles: 0
