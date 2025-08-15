@@ -1,5 +1,7 @@
 using UnityEngine;
+#if UNITY_ANDROID && !UNITY_EDITOR
 using UnityEngine.Android;
+#endif
 
 public class MicPermissionRequester : MonoBehaviour
 {
