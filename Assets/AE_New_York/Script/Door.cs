@@ -1,70 +1,55 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
+using System.Collections;
+using UnityEngine.XR.Interaction.Toolkit;
 
-public class Door : MonoBehaviour
+public class DoorXR : MonoBehaviour
 {
-
-    bool trig, open;//trig-проверка входа выхода в триггер(игрок должен быть с тегом Player) open-закрыть и открыть дверь
-    public float smooth = 2.0f;//скорость вращения
-    public float DoorOpenAngle = 90.0f;//угол вращения 
-    private Vector3 defaulRot;
+    public float openAngle = 90f;      // زاوية فتح الباب
+    public float smooth = 2f;          // سرعة الفتح
+    public float closeDelay = 2f;      // ثواني قبل الإغلاق
+    private Vector3 closedRot;
     private Vector3 openRot;
-    public Text txt;//text 
-    // Start is called before the first frame update
+    private bool isMoving = false;
+
     void Start()
     {
-        defaulRot = transform.eulerAngles;
-        openRot = new Vector3(defaulRot.x, defaulRot.y + DoorOpenAngle, defaulRot.z);
+        closedRot = transform.eulerAngles;
+        openRot = new Vector3(closedRot.x, closedRot.y + openAngle, closedRot.z);
     }
 
-    // Update is called once per frame
-    void Update()
+    // هذه الدالة تربطها مع XR Interaction Toolkit
+    // مثلاً: OnHoverEntered أو OnSelectEntered
+    public void OpenDoor()
     {
-        if (open)//открыть
-        {
-            transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, openRot, Time.deltaTime * smooth);
-        }
-        else//закрыть
-        {
-            transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, defaulRot, Time.deltaTime * smooth);
-        }
-        if (Input.GetKeyDown(KeyCode.E) && trig)
-        {
-            open = !open;
-        }
-        if (trig)
-        {
-            if (open)
-            {
-                txt.text = "Close E";
-            }
-            else
-            {
-                txt.text = "Open E";
-            }
-        }
+        if (!isMoving)
+            StartCoroutine(DoorRoutine());
     }
-    private void OnTriggerEnter(Collider coll)//вход и выход в\из  триггера 
+
+    private IEnumerator DoorRoutine()
     {
-        if (coll.tag == "Player")
+        isMoving = true;
+
+        // فتح الباب تدريجيًا
+        float t = 0f;
+        while (t < 1f)
         {
-            if (!open)
-            {
-                txt.text = "Close E ";
-            }
-            else
-            {
-                txt.text = "Open E";
-            }
-            trig = true;
+            t += Time.deltaTime * smooth * 0.5f;
+            transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, openRot, t);
+            yield return null;
         }
-    }
-    private void OnTriggerExit(Collider coll)//вход и выход в\из  триггера 
-    {
-        if (coll.tag == "Player")
+
+        // الانتظار قبل الإغلاق
+        yield return new WaitForSeconds(closeDelay);
+
+        // غلق الباب تدريجيًا
+        t = 0f;
+        while (t < 1f)
         {
-            txt.text = " ";
-            trig = false;
+            t += Time.deltaTime * smooth * 0.5f;
+            transform.eulerAngles = Vector3.Slerp(transform.eulerAngles, closedRot, t);
+            yield return null;
         }
+
+        isMoving = false;
     }
 }
