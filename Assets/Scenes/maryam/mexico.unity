@@ -6667,14 +6667,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: HV_Construction_Table (1)
       objectReference: {fileID: 0}
-    - target: {fileID: 2205419073663272332, guid: 20d9696c516f6ec49b616e515e27d6e4, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 18
-      objectReference: {fileID: 0}
-    - target: {fileID: 3533892497090849460, guid: 20d9696c516f6ec49b616e515e27d6e4, type: 3}
-      propertyPath: m_LODs.Array.data[0].screenRelativeHeight
-      value: 0.14424928
-      objectReference: {fileID: 0}
     - target: {fileID: 5428354483186189267, guid: 20d9696c516f6ec49b616e515e27d6e4, type: 3}
       propertyPath: m_LocalPosition.x
       value: -51.468
@@ -6715,8 +6707,7 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3533892497090849460, guid: 20d9696c516f6ec49b616e515e27d6e4, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
