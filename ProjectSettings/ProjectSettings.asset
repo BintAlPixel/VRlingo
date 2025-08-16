@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 316f24e1a1992f34cbc3d9d81a709e04
+  productGUID: 1d5a031bfca8e88448def2e55291da10
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -141,9 +141,7 @@ PlayerSettings:
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
   bundleVersion: 3.2.0
-  preloadedAssets:
-  - {fileID: 4152806553548906583, guid: 7a7970b4603a5a94e829affc5f0c9008, type: 2}
-  - {fileID: 7030715254484916498, guid: 9cfb797f7b487ed48bc018b3aa66b3cd, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
