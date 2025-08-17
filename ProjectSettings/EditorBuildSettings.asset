@@ -8,11 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/new_york.unity
     guid: fcbd4b15ccef74c40b76a640523ac87d
-  - enabled: 0
-    path: Assets/Scenes/mexico.unity
-    guid: 74da4c47853c5084889a3ad19f38a93e
   m_configObjects:
-    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: eb3a7a844314e9c4e90bf190c1c1319c, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: fc8908b441dcdb44391f9d2518dac61a, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7a7970b4603a5a94e829affc5f0c9008, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9cfb797f7b487ed48bc018b3aa66b3cd, type: 2}
   m_UseUCBPForAssetBundles: 0

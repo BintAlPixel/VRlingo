@@ -10248,6 +10248,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1821196918524543893, guid: fd49091a5c2fb9c45a243d975732d73b, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 7544212243941241185, guid: fd49091a5c2fb9c45a243d975732d73b, type: 3}
       propertyPath: m_Name
       value: HV_Antenna_02
@@ -13798,6 +13802,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HV_Building_13 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 4355159144873496150, guid: 8df9135ba6ac24d4a894a5327eee1aba, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 5884577139692856063, guid: 8df9135ba6ac24d4a894a5327eee1aba, type: 3}
       propertyPath: m_LocalPosition.x
       value: -67
@@ -19343,6 +19351,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5978836546945628167, guid: cb404c284e10dc140beeee39ee36d987, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 6634676491441169799, guid: cb404c284e10dc140beeee39ee36d987, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0.57
@@ -57497,6 +57509,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5978836546945628167, guid: cb404c284e10dc140beeee39ee36d987, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -58339,6 +58355,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: HV_Building_13
       objectReference: {fileID: 0}
+    - target: {fileID: 4355159144873496150, guid: 8df9135ba6ac24d4a894a5327eee1aba, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
     - target: {fileID: 5884577139692856063, guid: 8df9135ba6ac24d4a894a5327eee1aba, type: 3}
       propertyPath: m_LocalPosition.x
       value: 63.25
