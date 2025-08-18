@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/new_york.unity
     guid: fcbd4b15ccef74c40b76a640523ac87d
+  - enabled: 1
+    path: Assets/Scenes/bedour/new york nps.unity
+    guid: 93b5ae07264d11e44ab9f3bb219337b9
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7a7970b4603a5a94e829affc5f0c9008, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9cfb797f7b487ed48bc018b3aa66b3cd, type: 2}
