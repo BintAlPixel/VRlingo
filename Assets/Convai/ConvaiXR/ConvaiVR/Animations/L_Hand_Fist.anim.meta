@@ -1,8 +1,15 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Convai/ConvaiXR/ConvaiVR/Animations/L_Hand_Fist.anim.meta
 guid: e4961a5b46014c64791109cc4922ec3a
 NativeFormatImporter:
   externalObjects: {}
   mainObjectFileID: 7400000
+========
+guid: e86b0fd53a9bf4b5cb65f5e2f227c21c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+>>>>>>>> pinata:Assets/Pinata/animal-company-evil-eye-pinata/source/New Material.mat.meta
   userData: 
   assetBundleName: 
   assetBundleVariant: 

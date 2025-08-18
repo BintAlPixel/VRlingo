@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Convai.meta
 guid: 0a894802daf890b4fb8e06253ec34b99
+========
+guid: 948b5500a4b994020ac5ff0340eeb267
+>>>>>>>> pinata:Assets/Pinata.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
