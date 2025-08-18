@@ -1425,6 +1425,14 @@ PrefabInstance:
       value: Convai NPC Steve
       objectReference: {fileID: 0}
     - target: {fileID: 6105318575690959729, guid: 6c281cc73f7505f4fbdef39f95d456a1, type: 3}
+      propertyPath: characterID
+      value: f3759a7e-7bd3-11f0-9048-42010a7be01f
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105318575690959729, guid: 6c281cc73f7505f4fbdef39f95d456a1, type: 3}
+      propertyPath: characterName
+      value: " Alfredo \u2014 Amigo de la Calle"
+      objectReference: {fileID: 0}
+    - target: {fileID: 6105318575690959729, guid: 6c281cc73f7505f4fbdef39f95d456a1, type: 3}
       propertyPath: initializeSessionID
       value: 0
       objectReference: {fileID: 0}
@@ -1505,6 +1513,14 @@ PrefabInstance:
     - target: {fileID: 4604351693166002233, guid: 7108bc695aad724478f9ae0870ce2765, type: 3}
       propertyPath: m_Name
       value: Convai NPC Missy
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065959304475275240, guid: 7108bc695aad724478f9ae0870ce2765, type: 3}
+      propertyPath: characterID
+      value: ae752bbc-7bd1-11f0-9b29-42010a7be01f
+      objectReference: {fileID: 0}
+    - target: {fileID: 9065959304475275240, guid: 7108bc695aad724478f9ae0870ce2765, type: 3}
+      propertyPath: characterName
+      value: "Sof\xEDa \u2014 Vendedora de Verduras"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4800,6 +4816,14 @@ PrefabInstance:
       value: Convai NPC Anna Reed
       objectReference: {fileID: 0}
     - target: {fileID: 8083741806043922179, guid: 24213578f04b3514ea031951db41de69, type: 3}
+      propertyPath: characterID
+      value: 20f6068c-7bd9-11f0-ba33-42010a7be01f
+      objectReference: {fileID: 0}
+    - target: {fileID: 8083741806043922179, guid: 24213578f04b3514ea031951db41de69, type: 3}
+      propertyPath: characterName
+      value: "Emilia\u2014 Gu\xEDa de Baile Folkl\xF3rico (junto al grupo que baila)"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8083741806043922179, guid: 24213578f04b3514ea031951db41de69, type: 3}
       propertyPath: initializeSessionID
       value: 0
       objectReference: {fileID: 0}
@@ -6169,11 +6193,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2639540652976512734, guid: 2a09da1d04f25174da5f37449608e885, type: 3}
       propertyPath: characterID
-      value: 9357ec00-7b0b-11f0-991a-42010a7be01f
+      value: d8597902-7bc1-11f0-998e-42010a7be01f
       objectReference: {fileID: 0}
     - target: {fileID: 2639540652976512734, guid: 2a09da1d04f25174da5f37449608e885, type: 3}
       propertyPath: characterName
-      value: TaxiDriver
+      value: "Mar\xEDa Pi\xF1ata Buddy"
       objectReference: {fileID: 0}
     - target: {fileID: 3458780173217957940, guid: 2a09da1d04f25174da5f37449608e885, type: 3}
       propertyPath: m_RootOrder
