@@ -8,10 +8,10 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/new_york.unity
     guid: fcbd4b15ccef74c40b76a640523ac87d
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/bedour/new york nps.unity
     guid: 93b5ae07264d11e44ab9f3bb219337b9
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/mexico_NPCS.unity
     guid: 74da4c47853c5084889a3ad19f38a93e
   m_configObjects:
