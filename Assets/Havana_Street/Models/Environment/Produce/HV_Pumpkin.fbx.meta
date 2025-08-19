@@ -1,5 +1,12 @@
 fileFormatVersion: 2
 guid: 235144ea83e8a2249abb441b9cf2ec0b
+AssetOrigin:
+  serializedVersion: 1
+  productId: 309237
+  packageName: Havana Street
+  packageVersion: 1.1
+  assetPath: Assets/Havana_Street/Models/Environment/Produce/HV_Pumpkin.fbx
+  uploadId: 728431
 ModelImporter:
   serializedVersion: 22200
   internalIDToNameTable: []
@@ -21,8 +28,6 @@ ModelImporter:
     optimizeGameObjects: 0
     removeConstantScaleCurves: 0
     motionNodeName: 
-    rigImportErrors: 
-    rigImportWarnings: 
     animationImportErrors: 
     animationImportWarnings: 
     animationRetargetingWarnings: 
@@ -114,10 +119,3 @@ ModelImporter:
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 309237
-  packageName: Havana Street
-  packageVersion: 1.1
-  assetPath: Assets/Havana_Street/Models/Environment/Produce/HV_Pumpkin.fbx
-  uploadId: 728431
