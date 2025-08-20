@@ -5,12 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/new_york.unity
     guid: fcbd4b15ccef74c40b76a640523ac87d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/bedour/new york nps.unity
     guid: 93b5ae07264d11e44ab9f3bb219337b9
+  - enabled: 1
+    path: Assets/Scenes/mexico.unity
+    guid: 74da4c47853c5084889a3ad19f38a93e
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 3f82ddd18478d8c4db4855f3d5e243b0, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7a7970b4603a5a94e829affc5f0c9008, type: 2}
