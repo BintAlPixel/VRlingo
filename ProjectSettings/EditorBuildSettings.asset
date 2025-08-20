@@ -14,9 +14,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/mexico_NPCS.unity
     guid: 74da4c47853c5084889a3ad19f38a93e
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/bedour/TicketScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/final scenes/airport main.unity
+    guid: 17a6ffd615aac1b42a19dcc5d8e65174
+  - enabled: 1
+    path: Assets/final scenes/mexico final.unity
+    guid: 2afa3e7139247d148ace4a0ad4c6cdb1
+  - enabled: 1
+    path: Assets/final scenes/newyork final.unity
+    guid: 2e75eb7b4c32dc94cac19fb9cd2c66cc
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 7a7970b4603a5a94e829affc5f0c9008, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 9cfb797f7b487ed48bc018b3aa66b3cd, type: 2}
