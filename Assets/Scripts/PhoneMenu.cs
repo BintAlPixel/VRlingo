@@ -5,6 +5,6 @@ public class PhoneMenu : MonoBehaviour
 {
     public void Go()
     {
-        SceneManager.LoadScene("airport"); // <- use your exact scene name
+        SceneManager.LoadScene("airport main"); // <- use your exact scene name
     }
 }
