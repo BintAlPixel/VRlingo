@@ -110,7 +110,7 @@ MonoBehaviour:
     x: 681
     y: -486
     width: 487
-    height: 1562
+    height: 1563
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -203,7 +203,7 @@ MonoBehaviour:
   particlePerStripCount: 16
   needsComputeBounds: 0
   boundsMode: 0
-  m_Space: 0
+  m_Space: 1
 --- !u!114 &114512514798047786
 MonoBehaviour:
   m_ObjectHideFlags: 1
