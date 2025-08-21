@@ -26,6 +26,9 @@ public class TicketSocketLoader : MonoBehaviour
     {
         if (isProcessing) return;
 
+        // NEW: don't react if a transition is already running
+        if (TransitionManager.Instance && TransitionManager.Instance.IsTransitioning) return; // NEW
+
         var ticket = args.interactableObject.transform.GetComponent<TicketItem>();
         if (ticket == null || ticket.data == null) return;
 
@@ -46,6 +49,13 @@ public class TicketSocketLoader : MonoBehaviour
         float t = 0f;
         while (t < holdDelay)
         {
+            // NEW: if a transition starts while waiting, bail
+            if (TransitionManager.Instance && TransitionManager.Instance.IsTransitioning)  // NEW
+            {
+                isProcessing = false;                                                    // NEW
+                yield break;                                                             // NEW
+            }
+
             t += Time.unscaledDeltaTime;
             yield return null;
         }
@@ -55,6 +65,13 @@ public class TicketSocketLoader : MonoBehaviour
             Debug.LogError("TransitionManager missing. Put it in your starting scene.");
             isProcessing = false;
             yield break;
+        }
+
+        // NEW: final guard right before triggering the fade/load
+        if (TransitionManager.Instance.IsTransitioning)                                   // NEW
+        {
+            isProcessing = false;                                                         // NEW
+            yield break;                                                                  // NEW
         }
 
         TransitionManager.Instance.LoadScene(sceneName); // fade → load → fade-in
