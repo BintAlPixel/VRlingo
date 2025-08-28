@@ -17,13 +17,13 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/bedour/TicketScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
-  - enabled: 0
+  - enabled: 1
     path: Assets/final scenes/airport main.unity
     guid: 17a6ffd615aac1b42a19dcc5d8e65174
   - enabled: 1
     path: Assets/final scenes/mexico final.unity
     guid: 2afa3e7139247d148ace4a0ad4c6cdb1
-  - enabled: 0
+  - enabled: 1
     path: Assets/final scenes/newyork final.unity
     guid: 2e75eb7b4c32dc94cac19fb9cd2c66cc
   - enabled: 0
